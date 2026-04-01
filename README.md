@@ -45,17 +45,23 @@ The robot continuously monitors its surroundings using flame sensors and automat
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
 fire-fighting-robot/
-│── fire_robot.ino
-│── README.md
-│── images/
-│── docs/
+
+- fire_robot.ino  
+- README.md  
+- images/  
+  - Robot.png  
+  - Circuit_Diagram.jpg  
+- docs/  
+  - fire-fighting-robot-research-paper.pdf 
+
 
 ## 🖼️ Project Images
-![Robot](images\Robot.png)
-![Circuit Diagram](images\Circuit Diagram.jpg)
 
+<img src="images/Robot.png" width="400"/>
+<img src="images/Circuit_Diagram.jpg" width="400"/>
 ---
 
 ## 📄 Documentation
@@ -63,7 +69,7 @@ fire-fighting-robot/
 This project also includes a detailed study and analysis of the system.
 
 👉 Research Paper:  
-[View PDF](docs\fire-fighting-robot-research-paper.pdf)
+[View PDF](docs/fire-fighting-robot-research-paper.pdf)
 
 ---
 
