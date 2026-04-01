@@ -3,15 +3,17 @@
 An autonomous Arduino-based fire-fighting robot designed to detect and respond to fire in real time using multi-directional flame sensing. The system integrates motor-driven navigation and a servo-controlled water spraying mechanism to approach and extinguish the fire source without human intervention, demonstrating practical implementation of embedded systems and robotics.
 
 ---
+
 ## 📌 Overview
 
-This project presents the design and development of an autonomous fire-fighting robot using Arduino. The robot is capable of detecting fire from multiple directions using flame sensors and responding instantly by navigating toward the source and extinguishing it.
+This project presents the design and development of an autonomous fire-fighting robot using Arduino.
 
-The system integrates sensors, motor control, and a water pumping mechanism to perform real-time fire detection and suppression. Based on the sensor inputs, the robot determines the direction of the fire (left, center, or right) and adjusts its movement accordingly using differential motor control.
+The robot detects fire from multiple directions using flame sensors and moves toward the source automatically. Based on sensor input, it adjusts its direction (left, center, or right) using motor control.
 
-Once the robot reaches close proximity to the fire source, it halts and activates a water pump system controlled through a relay module. A servo motor is used to sweep the nozzle, ensuring effective coverage and increasing the chances of complete fire suppression.
+Once the robot reaches the fire, it stops and activates a water pump through a relay module. A servo motor is used to sweep the nozzle, ensuring better water coverage and effective fire suppression.
 
-This project demonstrates the practical application of embedded systems, automation, and robotics concepts. It highlights how simple hardware components can be combined to create an efficient and responsive safety system capable of operating without manual control.
+This project demonstrates the practical application of embedded systems, automation, and robotics in building a responsive safety system.
+
 ---
 
 ## ⚙️Key Features
@@ -60,12 +62,13 @@ fire-fighting-robot/
 - docs/  
   - fire-fighting-robot-research-paper.pdf 
 
+---
 
 ## 🖼️ Project Images
 
 <p align="center">
-  <img src="images/Robot.png" width="400"/>
-  <img src="images/Circuit_Diagram.jpg" width="400"/>
+  <img src="images/Robot.png" width="45%"/>
+  <img src="images/Circuit_Diagram.jpg" width="45%"/>
 </p>
 
 ---
