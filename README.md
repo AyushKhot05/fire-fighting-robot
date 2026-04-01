@@ -1,17 +1,20 @@
-# 🔥 Fire Fighting Robot (Arduino)
+# 🔥  Autonomous Fire-Fighting Robot using Arduino
 
-An autonomous Arduino-based fire-fighting robot that detects fire using multiple flame sensors and extinguishes it using a water pump and servo-controlled mechanism.
+An autonomous Arduino-based fire-fighting robot designed to detect and respond to fire in real time using multi-directional flame sensing. The system integrates motor-driven navigation and a servo-controlled water spraying mechanism to approach and extinguish the fire source without human intervention, demonstrating practical implementation of embedded systems and robotics.
 
 ---
-
 ## 📌 Overview
 
-This project demonstrates a simple yet effective fire detection and suppression system using Arduino.  
-The robot continuously monitors its surroundings using flame sensors and automatically moves toward the fire source to extinguish it.
+This project presents the design and development of an autonomous fire-fighting robot using Arduino. The robot is capable of detecting fire from multiple directions using flame sensors and responding instantly by navigating toward the source and extinguishing it.
 
+The system integrates sensors, motor control, and a water pumping mechanism to perform real-time fire detection and suppression. Based on the sensor inputs, the robot determines the direction of the fire (left, center, or right) and adjusts its movement accordingly using differential motor control.
+
+Once the robot reaches close proximity to the fire source, it halts and activates a water pump system controlled through a relay module. A servo motor is used to sweep the nozzle, ensuring effective coverage and increasing the chances of complete fire suppression.
+
+This project demonstrates the practical application of embedded systems, automation, and robotics concepts. It highlights how simple hardware components can be combined to create an efficient and responsive safety system capable of operating without manual control.
 ---
 
-## ⚙️ Features
+## ⚙️Key Features
 
 - 🔥 Multi-directional fire detection (Left, Center, Right)
 - 🚗 Autonomous movement towards fire
@@ -60,16 +63,18 @@ fire-fighting-robot/
 
 ## 🖼️ Project Images
 
-<img src="images/Robot.png" width="400"/>
-<img src="images/Circuit_Diagram.jpg" width="400"/>
+<p align="center">
+  <img src="images/Robot.png" width="400"/>
+  <img src="images/Circuit_Diagram.jpg" width="400"/>
+</p>
+
 ---
 
 ## 📄 Documentation
 
 This project also includes a detailed study and analysis of the system.
 
-👉 Research Paper:  
-[View PDF](docs/fire-fighting-robot-research-paper.pdf)
+👉 [View Research Paper](docs/fire-fighting-robot-research-paper.pdf)
 
 ---
 
